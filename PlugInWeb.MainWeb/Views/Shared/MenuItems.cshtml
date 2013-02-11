@@ -1,0 +1,19 @@
+﻿@model ISet<org.theGecko.Utilities.MefMvc.Menu.Item>
+
+@foreach (var menuItem in Model)
+{
+        if (!string.IsNullOrWhiteSpace(menuItem.Action))
+        {
+            <li>@Html.ActionLink(menuItem.Title, menuItem.Action, menuItem.Controller)</li>
+        }
+        else
+        {
+            <li class="active"><span>@menuItem.Title</span></li>
+        }
+    if (menuItem.Items.Count > 0)
+    {
+        <ul>
+            @{Html.RenderPartial("MenuItems", menuItem.Items);}
+        </ul>
+    }
+}

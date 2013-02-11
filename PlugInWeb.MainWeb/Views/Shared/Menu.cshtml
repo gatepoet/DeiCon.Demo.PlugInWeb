@@ -1,0 +1,7 @@
+﻿@model org.theGecko.Utilities.MefMvc.Menu
+
+<ul class="tabs vertical hide-on-phones">
+    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+    @{Html.RenderPartial("MenuItems", Model.Items);}
+</ul>
+

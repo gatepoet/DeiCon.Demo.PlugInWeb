@@ -1,0 +1,10 @@
+﻿@model IEnumerable<org.theGecko.Utilities.MefMvc.IPluginRegistration>
+<p>PlugIns currently loaded:</p>    
+<table>
+    @foreach (var plugin in Model)
+    {
+        <tr><td>@plugin.PluginName</td></tr>
+    }
+</table>
+
+
