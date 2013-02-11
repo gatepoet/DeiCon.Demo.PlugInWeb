@@ -27,3 +27,6 @@ obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
+PlugInWeb.MainWeb/PlugIns/PlugInWeb.PlugIns.DataApi.dll
+PlugInWeb.MainWeb/PlugIns/PlugInWeb.PlugIns.DataApi.dll.config
+PlugInWeb.MainWeb/PlugIns/PlugInWeb.PlugIns.Test.dll
