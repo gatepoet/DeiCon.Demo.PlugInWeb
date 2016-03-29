@@ -100,10 +100,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PlugInWeb.MainWeb\PlugInWeb.MainWeb.csproj">
-      <Project>{AFA0B3E5-D925-480D-A5AA-4E933D7A7EF1}</Project>
-      <Name>PlugInWeb.MainWeb</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Utilities\Utilities.csproj">
       <Project>{8C31E2BB-256D-488F-9AD3-8A1E4B0A4103}</Project>
       <Name>Utilities</Name>
